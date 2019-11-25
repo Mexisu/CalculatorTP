@@ -16,7 +16,8 @@ namespace Console
         /// <returns>the addition value.</returns>
         public int Add(int a, int b)
         {
-            // new comment
+            // new comment from Xav
+            // Colette ne contribue pas, comme d'habitude
             return a + b;
         }
         /// <summary>
