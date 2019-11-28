@@ -16,6 +16,7 @@ namespace Console
         /// <returns>the addition value.</returns>
         public int Add(int a, int b)
         {
+            // new comment
             return a + b;
         }
         /// <summary>
