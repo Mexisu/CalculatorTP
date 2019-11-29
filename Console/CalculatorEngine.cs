@@ -17,7 +17,7 @@ namespace Console
         /// <param name="a"> 1st value.</param>
         /// <param name="b"> 2nd value.</param>
         /// <returns>the addition value.</returns>
-        public static int Addition(int a, int b)
+        public  int Addition(int a, int b)
         {
             // new comment from Xav
             // Colette ne contribue pas, comme d'habitude
@@ -29,7 +29,7 @@ namespace Console
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public static int Substraction(int a, int b)
+        public  int Substraction(int a, int b)
         {
             return a - b;
         }
@@ -40,7 +40,7 @@ namespace Console
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public static int Multiply(int a, int b)
+        public  int Multiply(int a, int b)
         {
             return a *b;
         }
@@ -50,7 +50,7 @@ namespace Console
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public static double Division(double  a, double b)
+        public  double Division(double  a, double b)
         {
             double res;
             if(b > 0)

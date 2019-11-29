@@ -15,7 +15,6 @@ namespace CalculatorUnitTest
             int b = 2;
             int expected = 3;
 
-            int mulexpected = 2;
 
             // instanciation de CalculatorEngine où se trouve les fonctions à tester
             CalculatorEngine engine = new CalculatorEngine();
@@ -27,7 +26,7 @@ namespace CalculatorUnitTest
 
 
             //testons ce qui se passe
-            int fafeef = 0;
+            //int fafeef = 0;
 
         }
 
