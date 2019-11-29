@@ -8,6 +8,9 @@ namespace Console
 {
     public class CalculatorEngine
     {
+        // coco est la plus douce
+        //string coco = "coco est la plus douce";
+
         /// <summary>
         /// Function to Addition two value
         /// </summary>
