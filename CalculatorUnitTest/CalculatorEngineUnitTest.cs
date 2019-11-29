@@ -19,15 +19,15 @@ namespace CalculatorUnitTest
 
             // instanciation de CalculatorEngine où se trouve les fonctions à tester
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Add(a, b);
+            int actual = engine.Addition(a, b);
 
 
             //test sur la valeur de sortie
             Assert.AreEqual(expected, actual);
 
 
-            
-
+            //testons ce qui se passe
+            var ffffff = 0;
 
         }
 
@@ -41,7 +41,7 @@ namespace CalculatorUnitTest
 
             // instanciation de CalculatorEngine où se trouve les fonctions à tester
             CalculatorEngine engine = new CalculatorEngine();
-            int actual2 = engine.Sub(a, b);
+            int actual2 = engine.Substraction(a, b);
             //test sur la valeur de sortie 
             Assert.AreEqual(subexpected, actual2);
             //
@@ -57,7 +57,7 @@ namespace CalculatorUnitTest
 
             // instanciation de CalculatorEngine où se trouve les fonctions à tester
             CalculatorEngine engine = new CalculatorEngine();
-            int actual3 = engine.Mul(a, b);
+            int actual3 = engine.Multiply(a, b);
             // test sur la valeur de sortie Multiplication
             Assert.AreEqual(mulexpected, actual3);
 
@@ -74,7 +74,7 @@ namespace CalculatorUnitTest
 
             // instanciation de CalculatorEngine où se trouve les fonctions à tester
             CalculatorEngine engine = new CalculatorEngine();
-            double actual4 = engine.Div(a, b);
+            double actual4 = engine.Division(a, b);
             // test sur la valeur de sortie Multiplication
             Assert.AreEqual(divexpected, actual4);
 
@@ -91,7 +91,7 @@ namespace CalculatorUnitTest
 
             // instanciation de CalculatorEngine où se trouve les fonctions à tester
             CalculatorEngine engine = new CalculatorEngine();
-            double actual4 = engine.Div(a, b);
+            double actual4 = engine.Division(a, b);
             // test sur la valeur de sortie Multiplication
             Assert.AreEqual(divexpected2, actual4);
 
