@@ -17,7 +17,7 @@ namespace Console
         /// <param name="premieroperande"> 1st value.</param>
         /// <param name="bella"> 2nd value.</param>
         /// <returns>the premieroperandeddition value.</returns>
-        public int Addition(int premieroperande, int bella)
+         public virtual int Addition(int premieroperande, int bella)
         {
             // new comment from Xav
             // Colette ne contribue pas, comme d'habitude
@@ -29,7 +29,7 @@ namespace Console
         /// <param name="premieroperande"></param>
         /// <param name="bella"></param>
         /// <returns></returns>
-        public int Substraction(int premieroperande, int bella)
+         public virtual int Substraction(int premieroperande, int bella)
         {
             return premieroperande - bella;
         }
@@ -40,7 +40,7 @@ namespace Console
         /// <param name="premieroperande"></param>
         /// <param name="bella"></param>
         /// <returns></returns>
-        public int Multiply(int premieroperande, int bella)
+         public int Multiply(int premieroperande, int bella)
         {
             return premieroperande * bella;
         }
@@ -50,7 +50,7 @@ namespace Console
         /// <param name="a"></param>
         /// <param name="bella"></param>
         /// <returns></returns>
-        public  double Division(double  premieroperande, double bella)
+         public virtual double Division(double  premieroperande, double bella)
         {
             double res;
             if(bella > 0)
