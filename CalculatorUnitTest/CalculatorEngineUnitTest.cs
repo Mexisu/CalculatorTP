@@ -27,7 +27,7 @@ namespace CalculatorUnitTest
 
 
             //testons ce qui se passe
-            var ffffff = 0;
+            int fafeef = 0;
 
         }
 
